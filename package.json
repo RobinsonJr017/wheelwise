@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth/core": "^0.20.0",
     "@auth/drizzle-adapter": "^0.3.14",
     "@mantine/carousel": "^7.4.1",
     "@mantine/core": "^7.4.1",
@@ -22,7 +21,6 @@
     "drizzle-orm": "^0.29.3",
     "embla-carousel-react": "8.0.0-rc19",
     "next": "14.0.4",
-    "next-auth": "5.0.0-beta.4",
     "postgres": "^3.4.3",
     "react": "^18",
     "react-dom": "^18"
