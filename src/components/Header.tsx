@@ -1,8 +1,9 @@
+'use client'
 import { useState } from 'react';
 import { Container, Group, Burger } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { MantineLogo } from '@mantinex/mantine-logo';
-import classes from './HeaderSimple.module.css';
+import classes from './Header.module.css';
 
 const links = [
   { link: '/about', label: 'Features' },
@@ -11,7 +12,7 @@ const links = [
   { link: '/community', label: 'Community' },
 ];
 
-export function HeaderSimple() {
+export function Header() {
   const [opened, { toggle }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
 
