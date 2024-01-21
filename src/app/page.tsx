@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Features } from "@/components/Home/Features";
 import { Hero } from "@/components/Home/Hero";
 import { Container } from "@mantine/core";
@@ -10,6 +11,7 @@ export default function Home() {
       <Container>
         <Features />
       </Container>
+      <Footer/>
     </main>
   );
 }
