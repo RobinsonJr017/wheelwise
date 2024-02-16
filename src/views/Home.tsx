@@ -1,8 +1,5 @@
 import {Center, Divider, Group, Image, Stack, Text, Title} from "@mantine/core";
 import placeholderImage from "../assets/placeholder.png"
-import image1 from "../assets/image 1.png"
-import image2 from "../assets/image 2.png"
-import image3 from "../assets/image 3.png"
 
 function Home() {
     return (
@@ -38,7 +35,7 @@ function Home() {
                 </Group>
                 <Group style={{width: "50%"}}>
                     <Center>
-                        <Image src={image1} style={{height: "5rem", width: "100%", objectFit: "cover", marginBottom: "2rem"}}/>
+                        <Image src={"/public/image1.png"} style={{height: "5rem", width: "100%", objectFit: "cover", marginBottom: "2rem"}}/>
                         <Stack style={{gap: 0}}>
                             <Title size={20} style={{fontFamily: "inter"}}>
                                 Personaliza Tu Experiencia
@@ -52,7 +49,7 @@ function Home() {
                         </Stack>
                     </Center>
                     <Center>
-                        <Image src={image2} style={{height: "5rem", width: "100%", objectFit: "cover", marginBottom: "2rem"}}/>
+                        <Image src={"/public/image2.png"} style={{height: "5rem", width: "100%", objectFit: "cover", marginBottom: "2rem"}}/>
                         <Stack style={{gap: 0}}>
                             <Title size={20} style={{fontFamily: "inter"}}>
                                 Personaliza Tu Experiencia
@@ -66,7 +63,7 @@ function Home() {
                         </Stack>
                     </Center>
                     <Center>
-                        <Image src={image3} style={{height: "5rem", width: "100%", objectFit: "cover", marginBottom: "2rem"}}/>
+                        <Image src={"/public/image3.png"} style={{height: "5rem", width: "100%", objectFit: "cover", marginBottom: "2rem"}}/>
                         <Stack style={{gap: 0}}>
                             <Title size={20} style={{fontFamily: "inter"}}>
                                 Personaliza Tu Experiencia
